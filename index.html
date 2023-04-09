@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sen:wght@700&display=swap" rel="stylesheet">
+
   <!-- font-awesome sdnjs link -->
   <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -18,28 +23,44 @@
 
 
     <section class="header">
-      <div class="container">
-        <nav class="navbar">
-          <a href="index.html" class="logo">
-            <img class="logo-img" src="./images/Logo.svg" alt="logo" width="140" height="28.35">
-          </a>
-          <div class="nav-links" id="navLinks">
-              <!-- Reposnive bar open and close -->
-              <i class="fa fa-times" onclick="hideMenu()"></i>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="register.html">Register</a></li>
-                  <a class="nav-links-login" href="register.html">Login</a>
-              </ul>
-          </div>
-          <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
-          <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
-          <!-- <i class="fa fa-search"></i> -->
-          <!-- Reposnive bar open and close -->
-      </nav>
+      <div class="header-nav">
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html" class="logo">
+              <img class="logo-img" src="./images/Logo.svg" alt="logo" width="140" height="28.35">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <!-- Reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <a class="nav-links-login" href="register.html">Login</a>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa fa-search"></i> -->
+            <!-- Reposnive bar open and close -->
+          </nav>
+        </div>
       </div>
+
+      <div class="text_box_backImg">
+      <div class="container">
+            <div class="text_box">
+              <h2>Posted on <strong>startup</strong></h2>
+              <p id="head-text">Step-by-step guide to choosing <br> great font pairs</p>
+              <p class="header-data">By <span style="color: #FFD050;">James West</span>  |  May 23, 2022 </p>
+              <p class="header-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br> fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+              </p>
+              <a href="#" class="hero_btn">Read More ></a>
+          </div>
+          </div>
+        </div>
+
     </section>
 
 
