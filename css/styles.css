@@ -370,3 +370,42 @@ nav .fa {
   line-height: 58px;
 }
 }
+
+
+@media(max-width: 480px) {
+  .container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #head-text {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.header-data, .header-text {
+  font-size: 14px;
+}
+
+.hero_btn {
+  padding: 14px 42px;
+  font-size: 16px;
+}
+
+  .catagory h2 {
+    font-size: 34px;
+  }
+
+  .blog h2 {
+    font-size: 34px;
+  }
+
+  .footer-text span {
+    font-size: 14px;
+  }
+
+  .footer-icon {
+    gap: 15px;
+  }
+}
