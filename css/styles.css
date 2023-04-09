@@ -71,7 +71,6 @@ nav .logo {
 
 nav .fab {
   font-size: 42px;
-  /* color: #5236f4; */
   color: #24f8c7;
 }
 
@@ -91,7 +90,7 @@ margin-left: 83px;
   display: inline-block;
   list-style: none;
   padding: 8px 12px;
-  position: relative;
+  /* position: relative; */
   text-transform: uppercase;
 }
 
@@ -170,12 +169,13 @@ margin-top: 24px;
 }
 
 .text_box_backImg{
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: url(../images/basc.png);
   background-position: center;
   background-size: cover;
-  position: relative;
+  background-repeat: no-repeat;
+  /* position: relative; */
 }
 
 .blog {
@@ -297,9 +297,60 @@ box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
 
 
 
+/* Register */
 
-@media(max-width: 1024px) {
+.register-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
+
+.register-box h1 {
+  margin-top: 69px;
+}
+
+.form {
+  margin-top: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 158px;
+}
+
+.form input {
+  outline: none;
+  padding: 5px 10px;
+  width: 765px;
+  height: 76px;
+}
+
+.regBtn{
+  margin-top: 80px;
+  width: 765px;
+  height: 76px;
+  /* padding: 16px 336px; */
+  background: #FFD050;
+  border: none;
+  color: #232536;
+  font-family: 'Sen';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.warning {
+  color: red;
+}
+
+.form-warning {
+  border: 1px solid red;
+}
+
+
+
+
 
 @media(max-width: 992px) {
   .container {
@@ -316,8 +367,6 @@ box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
     padding: 30px;
 }
 }
-
-
 
 
 @media(max-width: 768px) {
@@ -369,6 +418,16 @@ nav .fa {
   font-size: 48px;
   line-height: 58px;
 }
+
+.form input {
+  width: 470px;
+  height: 55px;
+}
+
+.regBtn {
+  width: 470px;
+  height: 55px;
+}
 }
 
 
@@ -405,7 +464,42 @@ nav .fa {
     font-size: 14px;
   }
 
+  .footer-text {
+    margin-top: 30px;
+  }
+
   .footer-icon {
-    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer-box {
+    height: 120px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .form input {
+    width: 300px;
+    height: 45px;
+  }
+
+  .regBtn {
+    width: 300px;
+    height: 45px;
+  }
+}
+
+@media(max-width: 320px) {
+  .form input {
+    width: 280px;
+    height: 40px;
+  }
+
+  .regBtn {
+    width: 280px;
+    height: 40px;
   }
 }

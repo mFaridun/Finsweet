@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finsweet</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sen:wght@700&display=swap" rel="stylesheet">
+
+  <!-- font-awesome sdnjs link -->
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+
+    <section class="header">
+      <div class="header-nav">
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html" class="logo">
+              <img class="logo-img" src="./images/Logo.svg" alt="logo" width="140" height="28.35">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <!-- Reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <a class="nav-links-login" href="login.html">Login</a>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa fa-search"></i> -->
+            <!-- Reposnive bar open and close -->
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-text">
+            <span>Finstreet 118 2561 Fintown</span>
+            <span>Hello@finsweet.com  020 7993 2905</span>
+          </div>
+          <div class="footer-icon">
+            <div><a href="#"><img src="./images/facebook.svg" alt="facebook"></a></div>
+            <div><a href="#"><img src="./images/twitter.svg" alt="twitter"></a></div>
+            <div><a href="#"><img src="./images/instagram.svg" alt="instagram"></a></div>
+            <div><a href="#"><img src="./images/LinkedIn.svg" alt="LinkedIn"></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
