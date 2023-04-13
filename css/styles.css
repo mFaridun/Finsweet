@@ -142,16 +142,15 @@ nav .fa {
 
 #head-text {
   font-family: 'Sen';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 64px;
-color: #fff;
-margin-top: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  color: #fff;
+  margin-top: 24px;
 }
 
 .header-data, .header-text {
-  /* display: inline-block; */
   margin-top: 24px;
   font-weight: 400;
   font-size: 16px;
@@ -178,10 +177,6 @@ margin-top: 24px;
   background-size: cover;
   background-repeat: no-repeat;
   /* position: relative; */
-}
-
-.blog {
-  /* width: 1280px; */
 }
 
 .box {
@@ -340,6 +335,183 @@ box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
   justify-content: space-between;
   gap: 25px;
 }
+
+
+
+
+
+
+
+
+/* Blog  */
+
+
+.startup {
+  height: 348px;
+  background: #F4F0F8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.startup-box h2 {
+  letter-spacing: -2px;
+  color: #232536;
+  font-family: 'Sen';
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.startup-box p {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #6D6E76;
+}
+
+.startup-box span {
+  display: inline-block;
+  margin-top: 32px;
+  text-transform: uppercase;
+  color: #232536;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.input-search {
+  margin: 57px 40px 0px 40px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  padding: 20px 30px;
+  background: #fff;
+  border: none;
+  color: #232536;
+  font-size: 16px;
+  border: 2px solid #FFD050;
+}
+
+.searchBtn:hover {
+  background-color: #FFD050;
+  color: #fff;
+}
+
+.search {
+  height: 76px;
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  color: #232536;
+  border: 2px solid #FFD050;
+}
+
+.img-boxs {
+  /* height: 312px;
+  width: 447px; */
+}
+
+.img-boxs img {
+  width: 100%;
+  width: 447.65px;
+  height: 350px;
+}
+
+.businessBox {
+  display: flex;
+  gap: 48px;
+}
+
+.businessBox h1 {
+  font-family: 'Sen';
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #592EA9;
+}
+
+.businessBox h4 {
+  margin-top: 20px;
+  font-family: 'Sen';
+  font-weight: 700;
+  font-size: 36px;
+  color: #232536;
+  }
+
+  .businessBox p {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #6D6E76;
+  }
+
+  .startup-card {
+    margin: 57px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+
+
+
+
+
+  /* All posts  */
+
+.allpost {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 40px 20px 40px;
+}
+
+.post-box h2 {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #232536;
+  text-transform: uppercase;
+}
+
+.post-title {
+  margin-top: 10px;
+  font-family: 'Sen';
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.post-data {
+  display: block;
+  margin-top: 14px;
+  font-weight: 500;
+font-size: 14px;
+color: #4C4C4C;
+}
+
+.post-box p {
+max-width: 624px;
+  margin-top: 27px;
+  font-size: 16px;
+line-height: 28px;
+color: #6D6E76;
+}
+
+
+.post-btn {
+  margin-top: 27px;
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #FFD050;
+  color: #232536;
+}
+
+
+
+
+
+
 
 
 
