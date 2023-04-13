@@ -184,6 +184,50 @@ margin-top: 24px;
   /* width: 1280px; */
 }
 
+.box {
+  width: 350px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box span {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4C4C4C;
+}
+
+.box h4 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #232536;
+}
+
+.box p {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #232536;
+  opacity: 0.7;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 73px;
+  gap: 30px;
+}
+
+.card .box {
+  display: flex;
+  flex-direction: column;
+}
+
 .blog h2 {
   margin-top: 94px;
   font-family: 'Sen';
