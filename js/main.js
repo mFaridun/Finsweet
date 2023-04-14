@@ -20,12 +20,12 @@ function hideMenu() {
       const options = {
         method: 'GET',
         headers: {
-            'x-api-key': 'D7ZMrkjarVWhCfd67Ri9XI2ftbhQVcUeK-ao6NLXcEA'
+            'x-api-key': 'f2c39d307d384c5e88a094d2131fc92b'
         },
       };
 
 
-      fetch('https://api.newscatcherapi.com/v2/search?q=Tesla', options)
+      fetch('https://newsapi.org/v2/everything?q=tesla', options)
       .then(response => response.json())
       .then (response => {
         console.log(response);
@@ -44,9 +44,9 @@ function hideMenu() {
                       img.src = `${data.urlToImage}`;
                       box.appendChild(img);
 
-                      // publishedAt
+                      // publishedAt "publishedAt
                       const publishedAt = document.createElement('span');
-                      publishedAt.textContent = data.published_date;                      ;
+                      publishedAt.textContent = data.publishedAt;                      ;
                       box.appendChild(publishedAt);
 
                       // title
